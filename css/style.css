@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #000000;
+  font-weight: 500;
+}
+.header {
+  width: 100%;
+  height: 900px;
+  background: #ccdef0;
+  background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100%);
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  margin-bottom: 90px;
+}
+.nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.nav-item:last-child{
+	margin-right: 0;
+}
+.nav-item{
+	margin-right: 50px;
+}
+.nav_link{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 1;
+	text-align: left;
+	/* Text style for "Главная" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+.nav_link:hover{
+	text-decoration: underline;
+}
+.logo {
+  /* Style for "Тропически" */
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: left;
+  /* Text style for "Тропически" */
+  /* Text style for "Сад" */
+  color: #000000;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.logo span {
+  color: #5abb33;
+}
+.header-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header-desc{
+	width: 500px;
+	padding-top: 90px;
+}
+.header-photo{
+	width: 670px;
+}
+.header_title{
+	/* Style for "Натуральны" */
+	color: #000000;
+	font-size: 48px;
+	font-weight: 800;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 1.3;
+	margin: 0;
+	margin-bottom: 35px;
+	text-align: left;
+	/* Text style for "Натуральны" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+.header_text{
+	/* Style for "Cок являет" */
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 1.7;
+	margin-bottom: 35px;
+	text-align: left;
+	/* Text style for "C, ок явля" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+.header_btn{
+	/* Style for "Прямоуголь" */
+	display: inline-block;
+	height: 65px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 33px;
+	background-color: #fadb60;
+	background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+	/* Style for "Получить з" */
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: normal;
+	padding-top: 17px;
+	text-align: left;
+	/* Text style for "Получить з" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+.header-social-item:hover{
+	opacity: 0.8;
+}
+.header-social-item:last-child{
+	margin-right: 0;
+}
+.header-social-item{
+	font-size: 27px;
+	color: #3d3e3f;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.footer{
+	height: 114px;
+	width: 100%;
+	background: #232323;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer p{
+	margin: 0;
+		/* Style for "Сверстал Ю" */
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 2;
+	text-align: left;
+	/* Text style for "Сверстал Ю" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
